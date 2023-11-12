@@ -12,7 +12,7 @@ function TerceraVentana() {
         <>
             <div className='col-12 text-center'>
                 <h2 className='fw-semibold'>Resultado</h2>
-                <p className='text-body-secondary'>Aquí está la imagen capturada y los datos asociados.</p>
+                <p className='text-body-secondary'>Aquí está la imagen capturada</p>
             </div>
             <div className='row d-grid gap-1 col-10 mx-auto'>
                 <img src={imageData} alt='Captura de mano' className='col-12' />
