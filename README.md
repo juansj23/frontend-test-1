@@ -21,6 +21,7 @@ Sigue estos pasos para inicializar la aplicación:
 4. Inicia la aplicación usando el comando:
    ```bash
    npm start
+5. Ajusta la pantalla a móvil. Para ello, abre el inspector del navegador y cambia el tamaño de la pantalla a 430px x 932px.(Iphone 14 pro max).
 
 ## Contacto
 
