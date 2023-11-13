@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import monedas from '/workspaces/frontend-test-1/prueba/src/monedas.png';
-import mano from '/workspaces/frontend-test-1/prueba/src/mano.png';
-import logoimg from '/workspaces/frontend-test-1/prueba/src/logoaitaca.png';
+// import monedas from '/workspaces/frontend-test-1/prueba/src/monedas.png';
+// import mano from '/workspaces/frontend-test-1/prueba/src/mano.png';
+// import logoimg from '/workspaces/frontend-test-1/prueba/src/logoaitaca.png';
 
 
 function PrimeraVentana() {
@@ -42,10 +42,10 @@ function PrimeraVentana() {
             <div className='row d-grid gap-1 col-10 mx-auto'>
                 <div className='col-12 text-start'>
                     <p className='mb-0'>Puedes usar una de estas monedas</p>
-                    <div className='p-1 border rounded' style={{ height: '75px', overflow: 'hidden' }}><img src={monedas} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt='img monedas' /></div>
+                    <div className='p-1 border rounded' style={{ height: '75px', overflow: 'hidden' }}><img src="https://i.ibb.co/8b0CW3Z/monedas-1.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt='img monedas' /></div>
                     <div className='mt-2'>
                         <p className='mb-0'>Coloca la moneda en el centro de la palma de tu mano</p>
-                        <div className='p-1 border rounded' style={{ height: '100px', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><img src={mano} style={{ width: '150px', height: '150px' }} alt='img palma de la mano' /></div>
+                        <div className='p-1 border rounded' style={{ height: '100px', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><img src="https://i.ibb.co/xgT2VR7/mano.png" style={{ width: '150px', height: '150px' }} alt='img palma de la mano' /></div>
                     </div>
                 </div>
                 <div className='col-11 mt-3 text-start'>
@@ -90,7 +90,7 @@ function PrimeraVentana() {
                 <div className='p-1 border-top border-2 mt-0 d-flex align-items-center justify-content-center'>
                     <p style={{ fontSize: '12px', marginBottom: '0', marginRight: '0' }}>Powered by</p>
                     <div className='d-flex align-items-center' style={{ height: '90px', width: '92px' }}>
-                        <img src={logoimg} alt='Logo Aitaca' style={{ width: '100%', height: '100%' }} />
+                        <img src="https://i.ibb.co/DKMqqNH/logoaitaca.png" alt='Logo Aitaca' style={{ width: '100%', height: '100%' }} />
                     </div>
                 </div>
             </div>
